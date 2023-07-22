@@ -1,7 +1,7 @@
 
-import 'package:bloc_tutorial1/bloc/counter_bloc.dart';
-import 'package:bloc_tutorial1/event/data_event.dart';
-import 'package:bloc_tutorial1/state/data_state.dart';
+import 'package:bloc_tutorial1/blocs/counter_bloc.dart';
+import 'package:bloc_tutorial1/events/data_event.dart';
+import 'package:bloc_tutorial1/states/data_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

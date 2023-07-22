@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:bloc_tutorial1/event/data_event.dart';
-import 'package:bloc_tutorial1/state/data_state.dart';
+import 'package:bloc_tutorial1/events/data_event.dart';
+import 'package:bloc_tutorial1/states/data_state.dart';
 
 class CounterBloc extends Bloc<DataEvent, DataState> {
   int count = 0;
